@@ -1,0 +1,136 @@
+/* flex and grid =================================================================================================== */
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.flex-col-rev{
+    flex-direction: column-reverse;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.align-center{
+    align-items: center;
+}
+
+/* grid -----------------------------*/
+
+.grid
+{
+    display: grid;
+}
+
+.grid-col{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.gap{
+    gap: 5px;
+}
+
+/* background============================================================================================== */
+
+.red{
+    background-color: red;
+}
+
+.gray{
+    background-color: gray;
+}
+
+.green{
+    background-color: greenyellow;
+}
+
+.purple{
+    background-color: purple;
+}
+
+/* height and width ========================================================================================*/
+
+.m-height{
+    height: 100vh;
+}
+
+.m-width{
+    width: 100%;
+}
+
+
+/* border==================================================================================================== */
+
+.radius-max{
+    border-radius: 30px;
+}
+
+.radius-mid{
+    border-radius: 10px;
+}
+
+.radius-min{
+    border-radius: 6px;
+}
+
+/* margin and padding=========================================================================================== */
+
+.p-30{
+    padding: 30px;
+}
+
+.p-20{
+    padding: 20px;
+}
+
+.p-5{
+    padding: 5px;
+}
+
+.m-t-10{
+    margin-top: 10px;
+}
+
+.m-t-15{
+    margin-top: 15px;
+}
+
+.m-t-20{
+    margin-top: 20px;
+}
+
+.m-t-30{
+    margin-top: 30px;
+}
+/* text align ===================================================================================================*/
+
+.text-center{
+    text-align: center;
+}
+
+/* buttons =================================================================================================*/
+
+.btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.btn:active{
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.436);
+}

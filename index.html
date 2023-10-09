@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/util.css" />
+    <style>
+      .stack-size{
+        display: flex;
+        align-items: center;
+      }
+      .size-box{
+        background-color: green;
+        width: 8vw;
+        padding: 10px 0;
+        margin-left: 10px;
+        border-radius: 6px;
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+      }
+    </style>
+    <title>Stack</title>
+  </head>
+  <body class="m-height m-width flex justify-center align-center">
+    <div class="container flex radius-max p-30">
+      <aside class="flex justify-center">
+        <div class="stack-container flex flex-col-rev align-center">
+        </div>
+      </aside>
+      <main class="flex flex-col align-center">
+        <div class="message-box text-center p-20 radius-mid">
+          <h2>Message</h2>
+          <div class="message m-t-30 p-20"></div>
+        </div>
+
+        <div class="stack-size m-t-20"> 
+          <!-- dispalay flex flex utility class is for temporary -->
+
+
+
+
+          <!-- <input
+            type="number"
+            class="size p-5 text-center radius-mid"
+            placeholder="Enter the size of stack"
+            required 
+          /> -->
+
+          <div>Stack Size</div>
+          <div class="size-box">5</div>
+        </div>
+
+        <div class="flex flex-col m-t-15">
+          <input
+            type="number"
+            class="push-item p-5 text-center radius-mid"
+            required placeholder="Enter number to push"
+          />
+          <div class="buttons m-t-10 flex justify-around">
+            <button class="push btn">Push</button>
+            <button class="pop btn">Pop</button>
+            <button class="reset btn">Reset</button>
+          </div>
+        </div>
+
+        <div class="detail-box m-t-20 radius-mid grid grid-col align-center gap">
+            <!-- <div>Size of Stack</div>
+            <div class="box radius-min text-center"></div> -->
+            <div>Top of the Stack</div>
+            <div class="box radius-min text-center"></div>
+            <div>Last Pushed Element</div>
+            <div class="box radius-min text-center"></div>
+            <div>Last Poped Element</div>
+            <div class="box radius-min text-center"></div>
+            
+        </div>
+      </main>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
